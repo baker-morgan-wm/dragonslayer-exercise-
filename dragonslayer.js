@@ -11,7 +11,7 @@ while(slaying) {
     if(youHit){
         console.log("You hit!");
         totalDamage += damageThisRound;
-        if(totalDamage >= 4) {
+        if(totalDamage >= 10) {
             console.log("You win!");
             slaying = false;
         } else{
